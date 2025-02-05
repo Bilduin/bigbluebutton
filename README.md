@@ -1,5 +1,14 @@
 BigBlueButton
 =============
+
+### Modifications
+This branch has been modified to support automated webinars. The key component is the `bigbluebutton-html5` folder.  
+
+To build and deploy this component, please refer to the official documentation:  
+[BigBlueButton HTML5 Client Development Guide (Version 2.7.x)](https://docs.bigbluebutton.org/development/guide/#developing-the-html5-client).
+
+---
+
 BigBlueButton is an open source web conferencing system.  
 
 BigBlueButton supports real-time sharing of audio, video, slides (with whiteboard controls), chat, and the screen.  Instructors can engage remote students with polling, emojis, multi-user whiteboard, and breakout rooms.  
