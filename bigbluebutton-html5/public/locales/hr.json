@@ -625,7 +625,7 @@
     "mobileApp.portals.addPortalPopup.confirm.button.label": "Pohrani",
     "mobileApp.portals.drawerNavigation.button.label": "Portali",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Obavezna polja",
-    "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Naziv već u uporabi"
-
+    "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Naziv već u uporabi",
+    "app.bilduinPlayer.notStarted": "Ova sesija još nije započela",
+    "app.bilduinPlayer.ended": "Ova sesija je završila"
 }
-

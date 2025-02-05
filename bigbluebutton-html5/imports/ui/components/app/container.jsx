@@ -22,6 +22,7 @@ import {
   layoutDispatch,
 } from '../layout/context';
 import { isEqual } from 'radash';
+import { startWatching } from '/imports/ui/components/external-video-player/service';
 
 const ROLE_MODERATOR = Meteor.settings.public.user.role_moderator;
 
@@ -286,7 +287,11 @@ export default withTracker(() => {
     minUtteranceLength: getFromUserSettings('bbb_transcription_min_utterance_length'),
   };
 
+  const externalBilduinVideoUrl = getFromUserSettings('bld_external_video_url', null);
+
   return {
+    startWatching,
+    externalBilduinVideoUrl,
     captions: CaptionsService.isCaptionsActive() ? <CaptionsContainer /> : null,
     audioCaptions: AudioCaptionsService.getAudioCaptions() ? <AudioCaptionsLiveContainer /> : null,
     fontSize: getFontSize(),

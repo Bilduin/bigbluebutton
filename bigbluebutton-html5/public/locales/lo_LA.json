@@ -44,7 +44,7 @@
     "app.dropdown.close": "ປິດ",
     "app.shortcut-help.closeLabel": "ປິດ",
     "app.videoPreview.closeLabel": "ປິດ",
-    "app.externalVideo.close": "ປິດ"
-
+    "app.externalVideo.close": "ປິດ",
+    "app.bilduinPlayer.notStarted": "ກອງປະຊຸມນີ້ຍັງບໍ່ທັນໄດ້ເລີ່ມຕົ້ນເທື່ອ",
+    "app.bilduinPlayer.ended": "ກອງປະຊຸມນີ້ໄດ້ສິ້ນສຸດລົງແລ້ວ"
 }
-

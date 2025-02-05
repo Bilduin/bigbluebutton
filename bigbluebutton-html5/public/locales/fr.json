@@ -1409,5 +1409,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portails",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Champs requis",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Ce nom est déjà utilisé",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Erreur de chargement de la page - vérifiez l'URL et la connexion réseau"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Erreur de chargement de la page - vérifiez l'URL et la connexion réseau",
+    "app.bilduinPlayer.notStarted": "Cette session n'a pas encore commencé",
+    "app.bilduinPlayer.ended": "Cette session est terminée"
 }

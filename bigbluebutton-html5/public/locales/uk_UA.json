@@ -1409,5 +1409,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Портали",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Необхідні поля",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Ім'я вже використовується",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Помилка завантаження сторінки - перевірте посилання та з'єднання з мережею"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Помилка завантаження сторінки - перевірте посилання та з'єднання з мережею",
+    "app.bilduinPlayer.notStarted": "Цей сеанс ще не розпочався",
+    "app.bilduinPlayer.ended": "Цей сеанс закінчився"
 }

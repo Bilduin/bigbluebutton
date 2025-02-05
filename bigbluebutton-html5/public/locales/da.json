@@ -698,7 +698,7 @@
     "app.iOSWarning.label": "Opgrader venligst til iOS 12.2 eller højere ",
     "app.legacy.unsupportedBrowser": "Det ser ud til du benytter en browser vi desværre ikke understøtter. Brug venligst enten {0} eller {1} for fuld understøttelse.",
     "app.legacy.upgradeBrowser": "Det ser ud til du brugere en ældre version af en understøttet browser. Opgrader venligst din browser for fuld understøttelse.",
-    "app.legacy.criosBrowser": "På iOS brug venligst Safari for fuld understøttelse."
-
+    "app.legacy.criosBrowser": "På iOS brug venligst Safari for fuld understøttelse.",
+    "app.bilduinPlayer.notStarted": "Denne session er ikke startet endnu",
+    "app.bilduinPlayer.ended": "Denne session er afsluttet"
 }
-

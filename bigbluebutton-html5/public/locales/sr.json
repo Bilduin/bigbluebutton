@@ -615,7 +615,7 @@
     "app.iOSWarning.label": "Molimo vas da izvršite nadogradnju na verziju iOS-a 12.2 ili višu",
     "app.legacy.unsupportedBrowser": "Izgleda da koristite pretraživač koji nije podržan. Molimo vas da koristite {0} ili {1} za potpunu podršku.",
     "app.legacy.upgradeBrowser": "Izgleda da koristite stariju verziju podržavanog pretraživača. Molimo vas da nadogradite vaš pretraživač radi potpune podrške.",
-    "app.legacy.criosBrowser": "Molimo vas da na iOS-u koristite Safari pretraživač za punu podršku."
-
+    "app.legacy.criosBrowser": "Molimo vas da na iOS-u koristite Safari pretraživač za punu podršku.",
+    "app.bilduinPlayer.notStarted": "Ова сесија још није започела",
+    "app.bilduinPlayer.ended": "Ова сесија је завршила"
 }
-

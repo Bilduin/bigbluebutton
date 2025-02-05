@@ -708,7 +708,7 @@
     "app.learningDashboard.usersTable.noUsers": "მომხმარებლები ჯერ არ არიან",
     "app.learningDashboard.pollsTable.anonymousRowName": "ანონიმური",
     "app.learningDashboard.errors.invalidToken": "სესიის არასოწრი ტოკენი",
-    "app.learningDashboard.errors.dataUnavailable": "მონაცემები მისაწვდომი აღარ არის"
-
+    "app.learningDashboard.errors.dataUnavailable": "მონაცემები მისაწვდომი აღარ არის",
+    "app.bilduinPlayer.notStarted": "ეს სესია ჯერ არ დაწყებულა",
+    "app.bilduinPlayer.ended": "ეს სხდომა დასრულდა"
 }
-

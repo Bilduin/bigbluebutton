@@ -890,7 +890,7 @@
     "app.learningDashboard.usersTable.userStatusOffline": "Ngoại tuyến",
     "app.learningDashboard.usersTable.noUsers": "Chưa có người dùng",
     "app.learningDashboard.pollsTable.anonymousAnswer": "Khảo sát ẩn danh (câu trả lời ở hàng cuối cùng)",
-    "app.learningDashboard.pollsTable.anonymousRowName": "Ẩn danh"
-
+    "app.learningDashboard.pollsTable.anonymousRowName": "Ẩn danh",
+    "app.bilduinPlayer.notStarted": "Phiên này vẫn chưa bắt đầu",
+    "app.bilduinPlayer.ended": "Phiên này đã kết thúc"
 }
-

@@ -764,7 +764,7 @@
     "app.debugWindow.form.userAgentLabel": "Gebruikeragent",
     "app.debugWindow.form.button.copy": "Kopieer",
     "app.debugWindow.form.enableAutoarrangeLayoutLabel": "Aktiveer selfrangskikking uitleg",
-    "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(dit sal gedeaktiveer word as u die webkamsarea sleep of die grootte daarvan verander)"
-
+    "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(dit sal gedeaktiveer word as u die webkamsarea sleep of die grootte daarvan verander)",
+    "app.bilduinPlayer.notStarted": "Hierdie sessie het nog nie begin nie",
+    "app.bilduinPlayer.ended": "Hierdie sessie is beëindig"
 }
-

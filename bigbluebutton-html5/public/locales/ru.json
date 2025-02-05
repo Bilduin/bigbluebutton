@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Порталы",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Обязательные поля",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Имя уже используется",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Ошибка при загрузке страницы. Проверьте URL и сетевое подключение."
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Ошибка при загрузке страницы. Проверьте URL и сетевое подключение.",
+    "app.bilduinPlayer.notStarted": "Эта сессия еще не началась",
+    "app.bilduinPlayer.ended": "Эта сессия закончилась"
 }

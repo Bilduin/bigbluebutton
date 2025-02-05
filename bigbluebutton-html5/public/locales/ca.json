@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portals",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Camps obligatoris",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Nom ja utilitzat",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Error en intentar carregar la pàgina - comprovi la URL i la connexió de xarxa"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Error en intentar carregar la pàgina - comprovi la URL i la connexió de xarxa",
+    "app.bilduinPlayer.notStarted": "Aquesta sessió encara no ha començat",
+    "app.bilduinPlayer.ended": "Aquesta sessió ha acabat"
 }

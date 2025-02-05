@@ -765,7 +765,7 @@
     "app.debugWindow.form.userAgentLabel": "Agent používateľa",
     "app.debugWindow.form.button.copy": "Skopírovať chat",
     "app.debugWindow.form.enableAutoarrangeLayoutLabel": "Povoliť automatické rozloženie",
-    "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(vypne sa, ak presuniete alebo zmeníte veľkosť oblasti webových kamier)"
-
+    "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(vypne sa, ak presuniete alebo zmeníte veľkosť oblasti webových kamier)",
+    "app.bilduinPlayer.notStarted": "Táto relácia sa ešte nezačala",
+    "app.bilduinPlayer.ended": "Táto relácia skončila"
 }
-

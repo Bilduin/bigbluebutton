@@ -617,7 +617,7 @@
     "app.debugWindow.windowTitle": "Atkļūdot",
     "app.debugWindow.form.button.copy": "Kopēt",
     "app.debugWindow.form.button.apply": "Piemērot",
-    "app.layout.style.custom": "Pielāgots/individuāls"
-
+    "app.layout.style.custom": "Pielāgots/individuāls",
+    "app.bilduinPlayer.notStarted": "Šī sesija vēl nav sākusies",
+    "app.bilduinPlayer.ended": "Šī sesija ir beigusies"
 }
-

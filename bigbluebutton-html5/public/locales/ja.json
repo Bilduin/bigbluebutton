@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "ポータル",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "必須項目",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "その名前はもう使われています",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "ウェブページのアクセスに失敗しました - URLとネットワーク接続を確認してください"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "ウェブページのアクセスに失敗しました - URLとネットワーク接続を確認してください",
+    "app.bilduinPlayer.notStarted": "このセッションはまだ開始されていません",
+    "app.bilduinPlayer.ended": "このセッションは終了しました"
 }

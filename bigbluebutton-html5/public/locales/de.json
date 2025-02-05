@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portale",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Benötigte Felder",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Name existiert bereits",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Fehler beim Laden der Seite - URL und Netzwerkverbindung prüfen"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Fehler beim Laden der Seite - URL und Netzwerkverbindung prüfen",
+    "app.bilduinPlayer.notStarted": "Diese Sitzung hat noch nicht begonnen",
+    "app.bilduinPlayer.ended": "Diese Sitzung ist beendet"
 }

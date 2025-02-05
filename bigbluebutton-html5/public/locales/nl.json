@@ -1310,5 +1310,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portalen",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Vereiste velden",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Naam reeds in gebruik",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Fout bij het laden van de pagina - controleer de URL en de netwerkverbinding"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Fout bij het laden van de pagina - controleer de URL en de netwerkverbinding",
+    "app.bilduinPlayer.notStarted": "Deze sessie is nog niet begonnen",
+    "app.bilduinPlayer.ended": "Deze sessie is afgelopen"
 }

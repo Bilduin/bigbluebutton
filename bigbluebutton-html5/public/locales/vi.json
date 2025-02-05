@@ -110,7 +110,7 @@
     "app.videoPreview.cancelLabel": "Hủy bỏ",
     "app.videoPreview.closeLabel": "Đóng",
     "app.video.cancel": "Hủy bỏ",
-    "app.externalVideo.close": "Đóng"
-
+    "app.externalVideo.close": "Đóng",
+    "app.bilduinPlayer.notStarted": "Phiên này vẫn chưa bắt đầu",
+    "app.bilduinPlayer.ended": "Phiên này đã kết thúc"
 }
-

@@ -45,7 +45,8 @@ const PresentationOptionsContainer = ({
   let buttonType = 'presentation';
   if (hasExternalVideo) {
     // hack until we have an external-video icon
-    buttonType = 'external-video';
+    // buttonType = 'external-video';
+    buttonType = 'presentation';
   } else if (hasScreenshare) {
     buttonType = 'desktop';
   } else if (hasCameraAsContent) {

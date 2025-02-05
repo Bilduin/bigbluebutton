@@ -25,6 +25,9 @@ const oldParameters = {
 const oldParametersKeys = Object.keys(oldParameters);
 
 const currentParameters = [
+  // BILDUIN
+  'bld_external_video_url',
+  'bld_external_video_date',
   // APP
   'bbb_ask_for_feedback_on_logout',
   'bbb_override_default_locale',

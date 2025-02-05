@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Πύλες",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Απαιτούμενα πεδία",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Αυτό το όνομα χρησιμοποιείται",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Σφάλμα φόρτωσης της σελίδας - ελέγξτε τη URL και τη σύνδεση δικτύου"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Σφάλμα φόρτωσης της σελίδας - ελέγξτε τη URL και τη σύνδεση δικτύου",
+    "app.bilduinPlayer.notStarted": "Αυτή η συνεδρία δεν έχει ξεκινήσει ακόμα",
+    "app.bilduinPlayer.ended": "Αυτή η συνεδρία έχει λήξει"
 }

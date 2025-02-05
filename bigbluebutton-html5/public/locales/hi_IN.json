@@ -478,7 +478,7 @@
     "app.createBreakoutRoom.leastOneWarnBreakout": "आपको ब्रेकआउट रूम में कम से कम एक उपयोगकर्ता रखना होगा।",
     "app.externalVideo.start": "एक नया वीडियो साझा करें",
     "app.externalVideo.close": "बंद करे",
-    "app.iOSWarning.label": "कृपया iOS 12.2 या उच्चतर में अपग्रेड करें"
-
+    "app.iOSWarning.label": "कृपया iOS 12.2 या उच्चतर में अपग्रेड करें",
+    "app.bilduinPlayer.notStarted": "यह सत्र अभी शुरू नहीं हुआ है",
+    "app.bilduinPlayer.ended": "यह सत्र समाप्त हो गया है"
 }
-

@@ -159,7 +159,7 @@ public:
     reactionsButton:
       # Enables the new raiseHand icon inside of the reaction menu (introduced in BBB 2.7)
       # If both reactionsButton and raiseHandActionButton are enabled, reactionsButton takes precedence.
-      enabled: true
+      enabled: false
     emojiRain:
       # If true, new reactions will be activated
       enabled: false
@@ -302,7 +302,7 @@ public:
   externalVideoPlayer:
     enabled: true
   kurento:
-    wsUrl: HOST
+    wsUrl: wss://bilduin-virtualroom15.de/bbb-webrtc-sfu
     cameraWsOptions:
       # Valid for video-provider. Time (ms) before its WS connection times out
       # and tries to reconnect.

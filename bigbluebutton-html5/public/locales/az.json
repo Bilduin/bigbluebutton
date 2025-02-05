@@ -701,7 +701,7 @@
     "app.debugWindow.form.button.copy": "Kopyala",
     "app.debugWindow.form.enableAutoarrangeLayoutLabel": "Avtomatik Düzenleme Düzenini aktivləşdirin",
     "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(veb kameralar sahəsini sürükləsəniz və ya ölçüsünü dəyişsəniz, deaktiv ediləcək)",
-    "app.learningDashboard.usersTable.colRaiseHands": "Əlləri qaldır"
-
+    "app.learningDashboard.usersTable.colRaiseHands": "Əlləri qaldır",
+    "app.bilduinPlayer.notStarted": "Bu seans hələ başlamayıb",
+    "app.bilduinPlayer.ended": "Bu seans başa çatdı"
 }
-

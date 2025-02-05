@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "포탈",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "필수 입력 사항",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "이름이 이미 사용 중임",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "페이지를 로드하는 동안 오류가 발생했습니다. URL 및 네트워크 연결을 확인하십시오."
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "페이지를 로드하는 동안 오류가 발생했습니다. URL 및 네트워크 연결을 확인하십시오.",
+    "app.bilduinPlayer.notStarted": "이 세션은 아직 시작되지 않았습니다",
+    "app.bilduinPlayer.ended": "이 세션은 끝났습니다"
 }

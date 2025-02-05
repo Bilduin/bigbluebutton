@@ -839,7 +839,7 @@
     "app.learningDashboard.usersTable.join": "Dołącz",
     "app.learningDashboard.pollsTable.title": "Ankiety",
     "app.learningDashboard.pollsTable.anonymousAnswer": "Ankieta Anonimowa (odpowiedzi w ostatnim wierszu)",
-    "app.learningDashboard.pollsTable.anonymousRowName": "Anonimowy"
-
+    "app.learningDashboard.pollsTable.anonymousRowName": "Anonimowy",
+    "app.bilduinPlayer.notStarted": "Ta sesja jeszcze się nie rozpoczęła",
+    "app.bilduinPlayer.ended": "Ta sesja zakończyła się"
 }
-

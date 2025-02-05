@@ -901,7 +901,7 @@
     "app.learningDashboard.pollsTable.anonymousAnswer": "అనామక పోల్ (చివరి వరుసలో సమాధానాలు)",
     "app.learningDashboard.pollsTable.anonymousRowName": "అనామక",
     "app.learningDashboard.errors.invalidToken": "సెషన్ టోకెన్ చెల్లదు",
-    "app.learningDashboard.errors.dataUnavailable": "డేటా ఇకపై అందుబాటులో ఉండదు"
-
+    "app.learningDashboard.errors.dataUnavailable": "డేటా ఇకపై అందుబాటులో ఉండదు",
+    "app.bilduinPlayer.notStarted": "ఈ సెషన్ ఇంకా ప్రారంభం కాలేదు",
+    "app.bilduinPlayer.ended": "ఈ సెషన్ ముగిసింది"
 }
-

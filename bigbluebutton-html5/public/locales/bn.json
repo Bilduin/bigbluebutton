@@ -795,7 +795,7 @@
     "app.debugWindow.form.enableAutoarrangeLayoutLabel": "স্বতঃ বিন্যাস বিন্যাস সক্ষম করুন",
     "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(আপনি ওয়েবক্যামের অঞ্চলটি টেনে আনলে বা পুনরায় আকার দিলে এটি অক্ষম হয়ে যাবে)",
     "app.debugWindow.form.chatLoggerLabel": "কথার লগার হার পরীক্ষা করো",
-    "app.debugWindow.form.button.apply": "প্রয়োগ"
-
+    "app.debugWindow.form.button.apply": "প্রয়োগ",
+    "app.bilduinPlayer.notStarted": "এই অধিবেশন এখনও শুরু হয়নি",
+    "app.bilduinPlayer.ended": "এই অধিবেশন শেষ হয়েছে"
 }
-

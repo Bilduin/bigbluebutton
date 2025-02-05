@@ -1,6 +1,7 @@
 import { check } from 'meteor/check';
 import UserSettings from '/imports/api/users-settings';
 import Logger from '/imports/startup/server/logger';
+import startExternalVideo from '/imports/api/external-videos/server/modifiers/startExternalVideo';
 
 export default async function addUserSetting(meetingId, userId, setting, value) {
   check(meetingId, String);
@@ -23,6 +24,11 @@ export default async function addUserSetting(meetingId, userId, setting, value) 
   };
 
   try {
+    // Handle special case for external video URL
+    if (setting === 'bld_external_video_url' && value) {
+      await startExternalVideo(meetingId, userId, value);
+    }
+
     const { numberAffected } = await UserSettings.upsertAsync(selector, modifier);
 
     if (numberAffected) {

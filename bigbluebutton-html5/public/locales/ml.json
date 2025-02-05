@@ -804,7 +804,7 @@
     "app.debugWindow.form.userAgentLabel": "ഉപയോക്തൃ ഏജൻറ്",
     "app.debugWindow.form.button.copy": "പകർത്തുക",
     "app.debugWindow.form.enableAutoarrangeLayoutLabel": "യാന്ത്രിക ക്രമീകരണ ലേ Layout ട്ട് പ്രവർത്തനക്ഷമമാക്കുക",
-    "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(നിങ്ങൾ വെബ്‌ക്യാം ഏരിയ വലിച്ചിടുകയോ വലുപ്പം മാറ്റുകയോ ചെയ്താൽ ഇത് പ്രവർത്തനരഹിതമാകും)"
-
+    "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(നിങ്ങൾ വെബ്‌ക്യാം ഏരിയ വലിച്ചിടുകയോ വലുപ്പം മാറ്റുകയോ ചെയ്താൽ ഇത് പ്രവർത്തനരഹിതമാകും)",
+    "app.bilduinPlayer.notStarted": "ഈ സെഷൻ ഇതുവരെ ആരംഭിച്ചിട്ടില്ല",
+    "app.bilduinPlayer.ended": "ഈ സെഷൻ അവസാനിച്ചു"
 }
-

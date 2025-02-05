@@ -1387,5 +1387,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portalai",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Privalomi laukai",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Vardas jau naudojamas",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Klaida bandant įkelti puslapį - patikrinkite URL ir tinklo ryšį"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Klaida bandant įkelti puslapį - patikrinkite URL ir tinklo ryšį",
+    "app.bilduinPlayer.notStarted": "Ši sesija dar nepradėjo",
+    "app.bilduinPlayer.ended": "Ši sesija baigėsi"
 }

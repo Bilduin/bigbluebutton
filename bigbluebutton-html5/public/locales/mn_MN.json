@@ -1,5 +1,5 @@
 {
-    "app.home.greeting": "Таны танилцуулга удахгүй эхлэх болно ..."
-
+    "app.home.greeting": "Таны танилцуулга удахгүй эхлэх болно ...",
+    "app.bilduinPlayer.notStarted": "Энэ хуралдаан эхэлээгүй байна",
+    "app.bilduinPlayer.ended": "Энэ хуралдаан дууссан"
 }
-

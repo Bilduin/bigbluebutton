@@ -671,7 +671,7 @@
     "playback.button.about.aria": "Pri",
     "playback.player.chat.message.poll.question": "Demando",
     "playback.player.chat.message.poll.option.yes": "Jes",
-    "playback.player.chat.message.poll.option.no": "Ne"
-
+    "playback.player.chat.message.poll.option.no": "Ne",
+    "app.bilduinPlayer.notStarted": "Ĉi tiu kunsido ankoraŭ ne komenciĝis",
+    "app.bilduinPlayer.ended": "Ĉi tiu kunsido finiĝis"
 }
-

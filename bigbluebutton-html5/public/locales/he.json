@@ -903,7 +903,7 @@
     "mobileApp.portals.addPortalPopup.confirm.button.label": "שמירה",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "שדות חובה",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "השם כבר קיים במערכת",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "שגיאה בניסיון לטעון את הדף - אנא בדקו כתובת אנטרנט וחיבור לרשת"
-
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "שגיאה בניסיון לטעון את הדף - אנא בדקו כתובת אנטרנט וחיבור לרשת",
+    "app.bilduinPlayer.notStarted": "מושב זה עדיין לא התחיל",
+    "app.bilduinPlayer.ended": "מושב זה הסתיים"
 }
-

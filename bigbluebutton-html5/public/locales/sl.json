@@ -674,7 +674,7 @@
     "app.debugWindow.form.userAgentLabel": "Program",
     "app.debugWindow.form.button.copy": "Kopiraj",
     "app.debugWindow.form.enableAutoarrangeLayoutLabel": "Omogoči razporeditev samodejnega razvrščanja",
-    "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(razvrstitev se onemogoči, če prilagajate ali spreminjate velikost polja slike)"
-
+    "app.debugWindow.form.enableAutoarrangeLayoutDescription": "(razvrstitev se onemogoči, če prilagajate ali spreminjate velikost polja slike)",
+    "app.bilduinPlayer.notStarted": "Ta seja se še ni začela",
+    "app.bilduinPlayer.ended": "Ta seja se je končala"
 }
-

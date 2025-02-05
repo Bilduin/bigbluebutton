@@ -174,7 +174,7 @@
     "app.presentationUploder.confirmDesc": "Guardar los cambios e iniciar la presentación",
     "app.presentationUploder.dismissLabel": "Cancelar",
     "app.whiteboard.toolbar.palmRejectionOn": "Activar rechazo de palma (táctiles)",
-    "app.whiteboard.toolbar.palmRejectionOff": "Desactivar rechazo de palma (táctiles)"
-
+    "app.whiteboard.toolbar.palmRejectionOff": "Desactivar rechazo de palma (táctiles)",
+    "app.bilduinPlayer.notStarted": "Esta sesión aún no ha comenzado",
+    "app.bilduinPlayer.ended": "Esta sesión ha terminado"
 }
-

@@ -1387,5 +1387,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portaler",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Obligatoriska fält",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Namn används redan",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Fel vid laddning av sidan - kolla adress och uppkoppling"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Fel vid laddning av sidan - kolla adress och uppkoppling",
+    "app.bilduinPlayer.notStarted": "Den här sessionen har inte börjat ännu",
+    "app.bilduinPlayer.ended": "Den här sessionen har slutat"
 }

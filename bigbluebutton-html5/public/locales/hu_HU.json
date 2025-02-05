@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portálok",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Kötelező mezők",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "A név már használatban van",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Hiba az oldal betöltésekor - ellenőrizd az URL-t és a hálózati kapcsolatot"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Hiba az oldal betöltésekor - ellenőrizd az URL-t és a hálózati kapcsolatot",
+    "app.bilduinPlayer.notStarted": "Ez a munkamenet még nem kezdődött el",
+    "app.bilduinPlayer.ended": "Ez a munkamenet véget ért"
 }

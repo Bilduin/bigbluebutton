@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portály",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Vyžadovaná pole",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Jméno je již používáno",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Nepodařilo se nahrát stránku - prosím zkontrolujte URL adresu a síťové připojení"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Nepodařilo se nahrát stránku - prosím zkontrolujte URL adresu a síťové připojení",
+    "app.bilduinPlayer.notStarted": "Tato relace ještě nezačala",
+    "app.bilduinPlayer.ended": "Tato relace skončila"
 }

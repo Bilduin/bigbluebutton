@@ -582,7 +582,7 @@
     "app.iOSWarning.label": "Va rog faceti upgrade la iOS 12.2 sau mai bun",
     "app.legacy.unsupportedBrowser": "Arata ca si cum ai folosi un browser care nu este suportat. Va rugam sa folositi {0} sau {1} pentru suport complet.",
     "app.legacy.upgradeBrowser": "Arata ca si cum ai folosi o versiune mai veche de browser. Va rog faceti upgrade la un browser care are suport complet.",
-    "app.legacy.criosBrowser": "Pe iOS va rugam sa folositi Safari pentru suport complet."
-
+    "app.legacy.criosBrowser": "Pe iOS va rugam sa folositi Safari pentru suport complet.",
+    "app.bilduinPlayer.notStarted": "Această sesiune nu a început încă",
+    "app.bilduinPlayer.ended": "Această sesiune s -a încheiat"
 }
-

@@ -1409,5 +1409,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portaalit",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Pakolliset kentät",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Nimi on jo käytössä",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Virhe ladattaessa sivua - tarkista URL-osoite ja verkkoyhteys"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Virhe ladattaessa sivua - tarkista URL-osoite ja verkkoyhteys",
+    "app.bilduinPlayer.notStarted": "Tämä istunto ei ole vielä alkanut",
+    "app.bilduinPlayer.ended": "Tämä istunto on päättynyt"
 }

@@ -1310,5 +1310,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Պորտալներ",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Պարտադիր դաշտեր",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Անունն արդեն օգտագործվում է",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Էջի բեռնման սխալ, ստուգեք URL-ը և ցանցային միացումը"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Էջի բեռնման սխալ, ստուգեք URL-ը և ցանցային միացումը",
+    "app.bilduinPlayer.notStarted": "Այս նստաշրջանը դեռ չի սկսվել",
+    "app.bilduinPlayer.ended": "Այս նիստն ավարտվեց"
 }

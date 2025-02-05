@@ -1413,5 +1413,7 @@
     "mobileApp.portals.drawerNavigation.button.label": "Portaller",
     "mobileApp.portals.addPortalPopup.validation.emptyFields": "Zorunlu alanlar",
     "mobileApp.portals.addPortalPopup.validation.portalNameAlreadyExists": "Adı başkası kullanıyor",
-    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Sayfa yüklenirken bir sorun çıktı. Adresi ve ağ bağlantınızı denetleyin"
+    "mobileApp.portals.addPortalPopup.validation.urlInvalid": "Sayfa yüklenirken bir sorun çıktı. Adresi ve ağ bağlantınızı denetleyin",
+    "app.bilduinPlayer.notStarted": "Bu oturum henüz başlamadı",
+    "app.bilduinPlayer.ended": "Bu oturum sona erdi"
 }
