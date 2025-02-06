@@ -53,6 +53,7 @@ import DEFAULT_VALUES from '../layout/defaultValues';
 import AppService from '/imports/ui/components/app/service';
 import TimerService from '/imports/ui/components/timer/service';
 import SpeechService from '/imports/ui/components/audio/captions/speech/service';
+import ExternalBilduinContainer from '../external-bilduin-player/container';
 
 const MOBILE_MEDIA = 'only screen and (max-width: 40em)';
 const APP_CONFIG = Meteor.settings.public.app;
@@ -270,8 +271,8 @@ class App extends Component {
     if (mountRandomUserModal) this.setRandomUserSelectModalIsOpen(true);
 
     if (prevProps.currentUserEmoji.status !== currentUserEmoji.status
-        && currentUserEmoji.status !== 'raiseHand'
-        && currentUserEmoji.status !== 'away'
+      && currentUserEmoji.status !== 'raiseHand'
+      && currentUserEmoji.status !== 'away'
     ) {
       const formattedEmojiStatus = intl.formatMessage({ id: `app.actionsBar.emojiMenu.${currentUserEmoji.status}Label` })
         || currentUserEmoji.status;
@@ -626,8 +627,8 @@ class App extends Component {
           {shouldShowScreenshare ? <ScreenshareContainer isLayoutSwapped={!presentationIsOpen} /> : null}
           {
             shouldShowExternalVideo
-              ? <ExternalVideoContainer isLayoutSwapped={!presentationIsOpen} isPresenter={isPresenter} />
-              : null
+              ? <ExternalBilduinContainer isLayoutSwapped={!presentationIsOpen} isPresenter={isPresenter} />
+                            : null
           }
           {shouldShowSharedNotes
             ? (
