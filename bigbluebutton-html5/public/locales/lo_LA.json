@@ -32,7 +32,7 @@
     "app.captions.menu.ariaSelect": "ພາສາຂອງຄຳບັນຍາຍ",
     "app.userList.captionsTitle": "ຄຳບັນຍາຍ",
     "app.poll.closeLabel": "ປິດ",
-    "app.poll.questionAndoptions.label" : "ຂໍ້ຄວາມຄຳຖາມທີ່ຈະສະແດງ.\nA. ຕົວເລືອກແບບສຳຫຼວດ *\nB. ຕົວເລືອກແບບສຳຫຼວດ (ທາງເລືອກ)\nC. ຕົວເລືອກແບບສຳຫຼວດ (ທາງເລືອກ)\nD. ຕົວເລືອກແບບສຳຫຼວດ (ທາງເລືອກ)\nE. ຕົວເລືອກແບບສຳຫຼວດ (ທາງເລືອກ)",
+    "app.poll.questionAndoptions.label": "ຂໍ້ຄວາມຄຳຖາມທີ່ຈະສະແດງ.\nA. ຕົວເລືອກແບບສຳຫຼວດ *\nB. ຕົວເລືອກແບບສຳຫຼວດ (ທາງເລືອກ)\nC. ຕົວເລືອກແບບສຳຫຼວດ (ທາງເລືອກ)\nD. ຕົວເລືອກແບບສຳຫຼວດ (ທາງເລືອກ)\nE. ຕົວເລືອກແບບສຳຫຼວດ (ທາງເລືອກ)",
     "app.poll.autoOption.label": "ຕົວເລືອກອັດຕະໂນມັດ ",
     "app.poll.autoOptionInstructions.label": "ເປີດໃຊ້ຕົວເລືອກອັດຕະໂນມັດ – ຂຽນຄຳຖາມແບບສຳຫຼວດ ແລະ ທາງເລືອກໃນຮູບແບບທີ່ໃຫ້ໄວ້.",
     "app.poll.maxOptionsWarning.label": "ພຽງ​ແຕ່ 5 ທາງ​ເລືອກ​ທໍາ​ອິດ​ທີ່​ສາ​ມາດ​ນໍາ​ໃຊ້​!",
@@ -45,6 +45,6 @@
     "app.shortcut-help.closeLabel": "ປິດ",
     "app.videoPreview.closeLabel": "ປິດ",
     "app.externalVideo.close": "ປິດ",
-    "app.bilduinPlayer.notStarted": "ກອງປະຊຸມນີ້ຍັງບໍ່ທັນໄດ້ເລີ່ມຕົ້ນເທື່ອ",
+    "app.bilduinPlayer.notStarted": "ກອງປະຊຸມຄັ້ງນີ້ຍັງບໍ່ທັນໄດ້ເລີ່ມຕົ້ນເທື່ອ.ການເລີ່ມຕົ້ນທີ່ວາງແຜນແມ່ນຢູ່ {0}.",
     "app.bilduinPlayer.ended": "ກອງປະຊຸມນີ້ໄດ້ສິ້ນສຸດລົງແລ້ວ"
 }

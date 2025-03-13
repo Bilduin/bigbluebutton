@@ -183,7 +183,7 @@
     "app.actionsBar.raiseLabel": "Levantar",
     "app.actionsBar.label": "Barra de acciones",
     "app.actionsBar.actionsDropdown.restorePresentationLabel": "Reestablecer presentación",
-    "app.screenshare.screenShareLabel" : "Compartir pantalla",
+    "app.screenshare.screenShareLabel": "Compartir pantalla",
     "app.submenu.application.applicationSectionTitle": "Aplicación",
     "app.submenu.application.animationsLabel": "Animaciones",
     "app.submenu.application.fontSizeControlLabel": "Tamaño de fuente",
@@ -275,8 +275,8 @@
     "app.audioModal.closeLabel": "Cerrar",
     "app.audioModal.yes": "Si",
     "app.audioModal.no": "No",
-    "app.audioModal.yes.arialabel" : "Eco es audible",
-    "app.audioModal.no.arialabel" : "Eco es inaudible",
+    "app.audioModal.yes.arialabel": "Eco es audible",
+    "app.audioModal.no.arialabel": "Eco es inaudible",
     "app.audioModal.echoTestTitle": "Esta es una prueba de eco privada. Dí unas palabras. ¿Escuchaste el audio?",
     "app.audioModal.settingsTitle": "Cambia tu configuración de audio",
     "app.audioModal.helpTitle": "Ocurrió un error con tus dispositivos de medios",
@@ -454,6 +454,6 @@
     "app.createBreakoutRoom.leastOneWarnBreakout": "Debes agregar almenos un usuario a cada grupo de trabajo.",
     "app.externalVideo.start": "Compartir un nuevo video",
     "app.externalVideo.close": "Cerrar",
-    "app.bilduinPlayer.notStarted": "Esta sesión aún no ha comenzado",
+    "app.bilduinPlayer.notStarted": "Esta sesión aún no ha comenzado.El comienzo planificado es en {0}.",
     "app.bilduinPlayer.ended": "Esta sesión ha terminado"
 }

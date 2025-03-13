@@ -71,7 +71,7 @@
     "app.userlist.menu.removeConfirmation.desc": "Evitar que este usuario vuelva a unirse a la sesión.",
     "app.userList.menu.muteUserAudio.label": "Silenciar usuario",
     "app.userList.menu.unmuteUserAudio.label": "Habilitar audio de usuario",
-    "app.userList.menu.giveWhiteboardAccess.label" : "Permitir acceso a la pizarra",
+    "app.userList.menu.giveWhiteboardAccess.label": "Permitir acceso a la pizarra",
     "app.userList.menu.removeWhiteboardAccess.label": "Quitar acceso a la pizarra",
     "app.userList.userAriaLabel": "{0} {1} {2} Estado {3}",
     "app.userList.menu.promoteUser.label": "Promover a moderador",
@@ -175,6 +175,6 @@
     "app.presentationUploder.dismissLabel": "Cancelar",
     "app.whiteboard.toolbar.palmRejectionOn": "Activar rechazo de palma (táctiles)",
     "app.whiteboard.toolbar.palmRejectionOff": "Desactivar rechazo de palma (táctiles)",
-    "app.bilduinPlayer.notStarted": "Esta sesión aún no ha comenzado",
+    "app.bilduinPlayer.notStarted": "Esta sesión aún no ha comenzado.El comienzo planificado es en {0}.",
     "app.bilduinPlayer.ended": "Esta sesión ha terminado"
 }

@@ -202,7 +202,7 @@
     "app.actionsBar.raiseLabel": "उठाना",
     "app.actionsBar.label": "क्रिया बार",
     "app.actionsBar.actionsDropdown.restorePresentationLabel": "प्रस्तुति को पुनर्स्थापित करें",
-    "app.screenshare.screenShareLabel" : "स्क्रीन शेयर",
+    "app.screenshare.screenShareLabel": "स्क्रीन शेयर",
     "app.submenu.application.applicationSectionTitle": "आवेदन",
     "app.submenu.application.animationsLabel": "एनिमेशन",
     "app.submenu.application.fontSizeControlLabel": "फ़ॉन्ट आकार",
@@ -294,8 +294,8 @@
     "app.audioModal.closeLabel": "बंद करे",
     "app.audioModal.yes": "हाँ",
     "app.audioModal.no": "नहीं",
-    "app.audioModal.yes.arialabel" : "इको श्रव्य है",
-    "app.audioModal.no.arialabel" : "इको अश्रव्य है",
+    "app.audioModal.yes.arialabel": "इको श्रव्य है",
+    "app.audioModal.no.arialabel": "इको अश्रव्य है",
     "app.audioModal.echoTestTitle": "यह एक निजी इको टेस्ट है। कुछ शब्द बोलो। क्या आपने ऑडियो सुना है?",
     "app.audioModal.settingsTitle": "अपनी ऑडियो सेटिंग बदलें",
     "app.audioModal.helpTitle": "आपके मीडिया उपकरणों के साथ एक समस्या थी",
@@ -479,6 +479,6 @@
     "app.externalVideo.start": "एक नया वीडियो साझा करें",
     "app.externalVideo.close": "बंद करे",
     "app.iOSWarning.label": "कृपया iOS 12.2 या उच्चतर में अपग्रेड करें",
-    "app.bilduinPlayer.notStarted": "यह सत्र अभी शुरू नहीं हुआ है",
+    "app.bilduinPlayer.notStarted": "यह सत्र अभी तक शुरू नहीं हुआ है।नियोजित शुरुआत {0} पर है।",
     "app.bilduinPlayer.ended": "यह सत्र समाप्त हो गया है"
 }

@@ -86,7 +86,7 @@
     "app.userList.userOptions.muteAllDesc": "Tắt micro những người đang trong cuộc trò chuyện",
     "app.userList.userOptions.clearAllLabel": "Xóa tất cả các biểu tượng trạng thái",
     "app.userList.userOptions.clearAllDesc": "Xóa tất cả biểu tượng trạng thái của thành viên",
-    "app.poll.questionAndoptions.label" : "Văn bản câu hỏi sẽ được hiển thị. \nA. Tùy chọn thăm dò ý kiến ​​* \nB. Tùy chọn thăm dò ý kiến ​​(tùy chọn) \nC. Tùy chọn thăm dò ý kiến ​​(tùy chọn) \nD. Tùy chọn thăm dò ý kiến ​​(tùy chọn) \nE. Tùy chọn thăm dò (tùy chọn)",
+    "app.poll.questionAndoptions.label": "Văn bản câu hỏi sẽ được hiển thị. \nA. Tùy chọn thăm dò ý kiến ​​* \nB. Tùy chọn thăm dò ý kiến ​​(tùy chọn) \nC. Tùy chọn thăm dò ý kiến ​​(tùy chọn) \nD. Tùy chọn thăm dò ý kiến ​​(tùy chọn) \nE. Tùy chọn thăm dò (tùy chọn)",
     "app.poll.autoOption.label": "Tự động tối ưu hóa ",
     "app.poll.autoOptionInstructions.label": "Tự động tùy chọn được bật - viết (các) câu hỏi và tùy chọn thăm dò ở định dạng nhất định ",
     "app.poll.maxOptionsWarning.label": "Chỉ có 5 tùy chọn đầu tiên có thể được sử dụng!",
@@ -111,6 +111,6 @@
     "app.videoPreview.closeLabel": "Đóng",
     "app.video.cancel": "Hủy bỏ",
     "app.externalVideo.close": "Đóng",
-    "app.bilduinPlayer.notStarted": "Phiên này vẫn chưa bắt đầu",
+    "app.bilduinPlayer.notStarted": "Phiên này vẫn chưa bắt đầu.Bắt đầu theo kế hoạch là tại {0}.",
     "app.bilduinPlayer.ended": "Phiên này đã kết thúc"
 }

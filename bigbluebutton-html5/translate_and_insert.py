@@ -1,13 +1,16 @@
 import os
+import json
 from googletrans import Translator
 
-def translate_and_insert(messages, dest_folder):
+def translate_and_insert(messages, dest_folder, src_lang='en'):
     """
     Translates and inserts messages into JSON locale files by modifying them as plain text.
+    This function is idempotent - it will update existing keys rather than duplicating them.
 
     :param messages: A dictionary of keys and messages to be added, e.g.,
                      {"app.bilduinPlayer.notStarted": "This session has not started yet"}
     :param dest_folder: Path to the folder containing locale JSON files.
+    :param src_lang: Source language code for the messages (default: 'en')
     """
     # Initialize the Google Translator
     translator = Translator()
@@ -19,56 +22,81 @@ def translate_and_insert(messages, dest_folder):
             
             # Extract language code from filename (e.g., 'af', 'es_419', etc.)
             locale = filename.split('.')[0]
-
-            # Read the file as plain text
-            with open(file_path, 'r', encoding='utf-8') as file:
-                content = file.read()
-
-            # Find the last closing brace
-            last_brace_index = content.rfind('}')
-            if last_brace_index == -1:
-                print(f"Error: Could not find a valid JSON structure in {filename}.")
-                continue
-
-            # Prepare the new messages to add
-            new_entries = []
-            for key, message in messages.items():
-                # Translate the message
+            
+            # Skip translation if the file's locale is the same as the source language
+            if locale == src_lang:
+                print(f"Skipping translation for {filename} as it matches source language.")
+                
+                # Still need to add or update the entries in the source file
                 try:
-                    translated_text = translator.translate(message, dest=locale).text
+                    with open(file_path, 'r', encoding='utf-8') as file:
+                        content = json.load(file)
+                    
+                    # Update content with new messages (no translation needed)
+                    for key, message in messages.items():
+                        content[key] = message
+                    
+                    # Write the updated content back to the file
+                    with open(file_path, 'w', encoding='utf-8') as file:
+                        json.dump(content, file, ensure_ascii=False, indent=4)
+                    
+                    print(f"Updated {filename} with new entries (no translation needed).")
                 except Exception as e:
-                    print(f"Error translating {key} for {filename}: {e}")
-                    continue
-
-                # Format the new entry
-                new_entry = f'    "{key}": "{translated_text}"'
-                new_entries.append(new_entry)
-
-            # Construct the new content
-            if new_entries:
-                # Find the last comma before the closing brace
-                last_comma_index = content[:last_brace_index].rfind(',')
-
-                # Check if the last character before the closing brace is a comma
-                if last_comma_index != -1 and content[last_comma_index + 1:last_brace_index].strip() == '':
-                    # Remove the trailing comma to avoid JSON errors
-                    content = content[:last_comma_index] + content[last_comma_index + 1:]
-
-                # Insert the new entries before the closing brace
-                new_content = content[:last_brace_index].rstrip() + ',\n' + ',\n'.join(new_entries) + '\n}'
-
-                # Save the updated file
-                with open(file_path, 'w', encoding='utf-8') as file:
-                    file.write(new_content)
-
-                print(f"Added new entries to {filename}: {new_entries}")
+                    print(f"Error updating {filename}: {e}")
+                
+                continue
+            
+            try:
+                # Load the file as proper JSON for idempotent updates
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content = json.load(file)
+                
+                # Keep track of which keys are updated
+                updated_keys = []
+                
+                # Process each message
+                for key, message in messages.items():
+                    # Translate the message
+                    try:
+                        translated_text = translator.translate(message, src=src_lang, dest=locale).text
+                        
+                        # Update or add the key
+                        if key in content:
+                            if content[key] != translated_text:
+                                content[key] = translated_text
+                                updated_keys.append(f"{key} (updated)")
+                        else:
+                            content[key] = translated_text
+                            updated_keys.append(f"{key} (added)")
+                    except Exception as e:
+                        print(f"Error translating {key} for {filename}: {e}")
+                        continue
+                
+                # Save the updated content back to the file
+                if updated_keys:
+                    with open(file_path, 'w', encoding='utf-8') as file:
+                        json.dump(content, file, ensure_ascii=False, indent=4)
+                    
+                    print(f"Updated {filename} with entries: {', '.join(updated_keys)}")
+                else:
+                    print(f"No changes needed for {filename}")
+                    
+            except json.JSONDecodeError:
+                print(f"Error: Could not parse {filename} as valid JSON. Skipping.")
+            except Exception as e:
+                print(f"Error processing {filename}: {e}")
 
 if __name__ == "__main__":
     # Example usage
     messages_to_add = {
-        "app.bilduinPlayer.notStarted": "This session has not started yet",
-        "app.bilduinPlayer.ended": "This session has ended"
+        "app.bilduinPlayer.notStarted": "Diese Sitzung hat noch nicht begonnen. Der geplante Beginn ist um {0}.",
     }
-    destination_folder = "/your/path/here/bigbluebutton-html5/public/locales/"
 
-    translate_and_insert(messages_to_add, destination_folder)
+    # destination_folder = "/your/path/here/bigbluebutton-html5/public/locales/"
+    destination_folder = "./public/locales/"
+
+    # Use with default source language (English)
+    # translate_and_insert(messages_to_add, destination_folder)
+    
+    # Or specify a different source language
+    translate_and_insert(messages_to_add, destination_folder, src_lang='de')
