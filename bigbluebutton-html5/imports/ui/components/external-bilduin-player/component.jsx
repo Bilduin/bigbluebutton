@@ -175,10 +175,9 @@ class BilduinPlayer extends Component {
     });
 
     // Update the condition to check for hasEnded
-    let startTimeString = new Date(startTime * 1000).toTimeString().slice(0, 5);
     if (!shouldPlay || hasEnded) {
       const message = elapsedTime < 0
-        ? intl.formatMessage(messages.notStartedMessage, { 0: startTimeString })
+        ? intl.formatMessage(messages.notStartedMessage)
         : intl.formatMessage(messages.endedMessage);
 
       return this.renderMessage(message);
@@ -216,7 +215,7 @@ class BilduinPlayer extends Component {
             config={{
               file: {
                 attributes: {
-                  // crossOrigin: 'true',
+                  crossOrigin: 'anonymous',
                 },
               },
             }}
