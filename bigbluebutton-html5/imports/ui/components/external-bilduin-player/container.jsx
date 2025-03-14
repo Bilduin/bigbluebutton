@@ -3,6 +3,7 @@ import { withTracker } from 'meteor/react-meteor-data';
 import { Session } from 'meteor/session';
 import getFromUserSettings from '/imports/ui/services/users-settings';
 import BilduinVideoComponent from './component';
+import AudioService from '/imports/ui/components/audio/service';
 import {
   layoutSelect,
   layoutSelectInput,
@@ -60,5 +61,6 @@ export default withTracker(({ isPresenter }) => {
     isPresenter,
     startTime,
     videoUrl,
+    isUsingAudio: AudioService.isUsingAudio(),
   };
 })(ExternalBilduinContainer);

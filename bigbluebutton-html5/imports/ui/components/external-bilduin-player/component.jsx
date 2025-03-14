@@ -51,7 +51,7 @@ class BilduinPlayer extends Component {
     const { layoutContextDispatch } = this.props;
 
     // Add window-level click listener for unmuting
-    window.addEventListener('click', this.handleGlobalClick);
+    // window.addEventListener('click', this.handleGlobalClick);
 
     layoutContextDispatch({
       type: ACTIONS.SET_HAS_EXTERNAL_VIDEO,
@@ -69,7 +69,7 @@ class BilduinPlayer extends Component {
 
   componentWillUnmount() {
     // Clean up event listener and timer
-    window.removeEventListener('click', this.handleGlobalClick);
+    // window.removeEventListener('click', this.handleGlobalClick);
     clearInterval(this.timer);
   }
 
@@ -153,6 +153,7 @@ class BilduinPlayer extends Component {
       hidePresentationOnJoin,
       startTime,
       videoUrl,
+      isUsingAudio
     } = this.props;
 
     const { isMuted, duration, shouldPlay } = this.state;
@@ -207,7 +208,7 @@ class BilduinPlayer extends Component {
             onContextMenu={(e) => e.preventDefault()}
             url={videoUrl}
             controls={false}
-            playing={true}
+            playing={isUsingAudio}
             muted={isMuted}
             height="100%"
             width="100%"
