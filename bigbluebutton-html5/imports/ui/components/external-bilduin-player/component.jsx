@@ -208,8 +208,8 @@ class BilduinPlayer extends Component {
             onContextMenu={(e) => e.preventDefault()}
             url={videoUrl}
             controls={false}
-            playing={isUsingAudio}
-            muted={isMuted}
+            playing={true}
+            muted={!isUsingAudio}
             height="100%"
             width="100%"
             progressInterval={1000}
