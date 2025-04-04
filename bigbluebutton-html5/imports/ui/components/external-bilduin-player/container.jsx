@@ -49,11 +49,11 @@ export default withTracker(({ isPresenter }) => {
   if (startDate) {
     const startDateObj = new Date(startDate);
     startTime = Math.floor(startDateObj.getTime() / 1000); // Convert to seconds
-    console.log('Start time debug:', {
-      startDate,
-      startDateObj,
-      startTime,
-    });
+    // console.log('Start time debug:', {
+    //   startDate,
+    //   startDateObj,
+    //   startTime,
+    // });
   }
 
   return {

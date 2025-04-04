@@ -42,16 +42,18 @@ class BilduinPlayer extends Component {
       isMuted: true,
       duration: null,
       shouldPlay: false, // Tracks if the video should be playing
+      userHasInteracted: false, // Track if user has interacted with the page
     };
 
     this.checkPlaybackStatus = this.checkPlaybackStatus.bind(this);
+    this.handleGlobalClick = this.handleGlobalClick.bind(this);
   }
 
   componentDidMount() {
     const { layoutContextDispatch } = this.props;
 
-    // Add window-level click listener for unmuting
-    // window.addEventListener('click', this.handleGlobalClick);
+    // Add window-level click listener for detecting user interaction
+    window.addEventListener('click', this.handleGlobalClick);
 
     layoutContextDispatch({
       type: ACTIONS.SET_HAS_EXTERNAL_VIDEO,
@@ -69,14 +71,14 @@ class BilduinPlayer extends Component {
 
   componentWillUnmount() {
     // Clean up event listener and timer
-    // window.removeEventListener('click', this.handleGlobalClick);
+    window.removeEventListener('click', this.handleGlobalClick);
     clearInterval(this.timer);
   }
 
-  handleGlobalClick = () => {
-    const { isMuted } = this.state;
-    if (isMuted) {
-      this.setState({ isMuted: false });
+  handleGlobalClick() {
+    // Update userHasInteracted state when user clicks anywhere on the window
+    if (!this.state.userHasInteracted) {
+      this.setState({ userHasInteracted: true });
     }
   }
 
@@ -156,7 +158,7 @@ class BilduinPlayer extends Component {
       isUsingAudio
     } = this.props;
 
-    const { isMuted, duration, shouldPlay } = this.state;
+    const { isMuted, duration, shouldPlay, userHasInteracted } = this.state;
 
     const now = Math.floor(Date.now() / 1000); // Current time in seconds
     const elapsedTime = now - startTime;
@@ -165,15 +167,6 @@ class BilduinPlayer extends Component {
     // 1. We have a valid duration
     // 2. The elapsed time is greater than the duration
     const hasEnded = duration && (elapsedTime > duration);
-
-    // Debug logs to help identify timing issues
-    console.log('Time debug:', {
-      now,
-      startTime,
-      duration,
-      elapsedTime,
-      shouldPlay,
-    });
 
     // Update the condition to check for hasEnded
     let startTimeString = new Date(startTime * 1000).toTimeString().slice(0, 5);
@@ -209,7 +202,7 @@ class BilduinPlayer extends Component {
             url={videoUrl}
             controls={false}
             playing={true}
-            muted={!isUsingAudio}
+            muted={!(userHasInteracted && isUsingAudio)} // Only unmute if user has interacted AND isUsingAudio is true
             height="100%"
             width="100%"
             progressInterval={1000}
