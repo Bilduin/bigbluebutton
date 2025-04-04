@@ -101,6 +101,22 @@ class BilduinPlayer extends Component {
     } else if ((!hasStarted || hasEnded) && this.state.shouldPlay) {
       this.setState({ shouldPlay: false });
     }
+    
+    // Check if video position is in sync when video should be playing
+    if (this.state.shouldPlay && this.player) {
+      const expectedPosition = elapsedTime;
+      const currentPosition = this.player.getCurrentTime();
+      const syncThreshold = 5; // 5 seconds grace period
+      
+      // If video is out of sync by more than the threshold, seek to the correct position
+      if (Math.abs(currentPosition - expectedPosition) > syncThreshold) {
+        console.log('Video out of sync, adjusting position', { 
+          current: currentPosition, 
+          expected: expectedPosition 
+        });
+        this.player.seekTo(expectedPosition);
+      }
+    }
   }
 
   renderMessage(message) {
@@ -207,15 +223,23 @@ class BilduinPlayer extends Component {
             width="100%"
             progressInterval={1000}
             playsinline
+            // disablePictureInPicture={true}
             config={{
               file: {
                 attributes: {
                   // crossOrigin: 'true',
+                  controlsList: 'nodownload noremoteplayback',
                 },
               },
             }}
             playbackRate={1}
             onDuration={this.handleDuration}
+            onPause={() => {
+              // Force playback to continue if user tries to pause
+              if (this.player && this.state.shouldPlay) {
+                this.player.getInternalPlayer().play();
+              }
+            }}
             onStart={() => {
               if (this.player) {
                 const currentTime = (now - startTime);
